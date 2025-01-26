@@ -27,17 +27,17 @@ const Features = () => {
   return (
     <section className="py-20 bg-baseball-gray">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-baseball-navy mb-12">
+        <h2 className="font-graduate text-3xl md:text-4xl font-bold text-center text-baseball-navy mb-12 tracking-wider">
           Baseball Knowledge Through the Ages
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow border border-baseball-navy/10"
             >
               <div className="text-baseball-red mb-4">{feature.icon}</div>
-              <h3 className="text-xl font-bold text-baseball-navy mb-2">
+              <h3 className="font-graduate text-xl font-bold text-baseball-navy mb-2 tracking-wide">
                 {feature.title}
               </h3>
               <p className="text-gray-600">{feature.description}</p>

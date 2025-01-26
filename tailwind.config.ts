@@ -20,9 +20,9 @@ export default {
     extend: {
       colors: {
         baseball: {
-          navy: "#0C2340",
-          red: "#E31837",
-          gray: "#F4F4F4",
+          navy: "#221F26",
+          red: "#ea384c",
+          gray: "#f3f3f3",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -59,7 +59,8 @@ export default {
         },
       },
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
+        graduate: ["Graduate", "serif"],
+        bitter: ["Bitter", "serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
