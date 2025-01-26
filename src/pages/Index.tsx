@@ -12,13 +12,13 @@ const Index = () => {
       <section className="pt-32 pb-20 bg-gradient-to-br from-baseball-navy to-baseball-red/90 text-white">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Where Baseball Fans Unite
+            Connect with Baseball's Virtual Veterans
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto">
-            Join thousands of passionate fans in real-time discussions about America's favorite pastime.
+            Chat with AI old-timers who know every stat, every game, and every moment in your team's history.
           </p>
           <Button className="bg-white text-baseball-navy hover:bg-gray-100 font-semibold text-lg px-8 py-6">
-            Get Started Free
+            Step Up to the Plate
           </Button>
         </div>
       </section>
@@ -29,13 +29,13 @@ const Index = () => {
       <section className="py-20">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-baseball-navy mb-6">
-            Join Our Growing Community
+            Your Personal Baseball Time Machine
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Connect with fans from all 30 MLB teams. Share your passion, discuss games, and make new friends.
+            Whether it's the 1927 Yankees or last night's game, our AI veterans have every detail ready to share.
           </p>
           <Button className="bg-baseball-red hover:bg-baseball-red/90 font-semibold text-lg px-8 py-6">
-            Start Chatting Now
+            Join the Conversation
           </Button>
         </div>
       </section>

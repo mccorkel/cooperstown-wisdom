@@ -1,25 +1,25 @@
-import { MessageSquare, Users, Star, Trophy } from "lucide-react";
+import { MessageSquare, Database, Star, Trophy } from "lucide-react";
 
 const features = [
   {
     icon: <MessageSquare className="w-6 h-6" />,
-    title: "Real-time Chat",
-    description: "Connect instantly with baseball fans from around the world",
+    title: "AI Baseball Veterans",
+    description: "Chat with AI old-timers who've memorized every stat and story",
   },
   {
-    icon: <Users className="w-6 h-6" />,
-    title: "Team Channels",
-    description: "Dedicated spaces for every MLB team's community",
+    icon: <Database className="w-6 h-6" />,
+    title: "Complete History",
+    description: "Access detailed stats and stories from every era of baseball",
   },
   {
     icon: <Star className="w-6 h-6" />,
-    title: "Game Day Discussions",
-    description: "Live chat during games with fellow supporters",
+    title: "Team Expertise",
+    description: "Deep knowledge of your team's entire history, from inception to now",
   },
   {
     icon: <Trophy className="w-6 h-6" />,
-    title: "Expert Analysis",
-    description: "Share insights and discuss strategies with knowledgeable fans",
+    title: "Game Analysis",
+    description: "Get expert insights on historical games and modern matchups",
   },
 ];
 
@@ -28,7 +28,7 @@ const Features = () => {
     <section className="py-20 bg-baseball-gray">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-baseball-navy mb-12">
-          The Ultimate Baseball Fan Experience
+          Baseball Knowledge Through the Ages
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
