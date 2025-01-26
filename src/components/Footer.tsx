@@ -4,9 +4,9 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">DugoutChat</h3>
+            <h3 className="text-xl font-bold mb-4">Cooperstown Wisdom</h3>
             <p className="text-gray-400">
-              The ultimate platform for baseball fans to connect and chat in real-time.
+              Where baseball fans connect with AI old-timers who share their encyclopedic knowledge of America's pastime.
             </p>
           </div>
           <div>
@@ -29,13 +29,11 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white">Twitter</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Facebook</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Instagram</a></li>
             </ul>
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 DugoutChat. All rights reserved.</p>
+          <p>&copy; 2024 Cooperstown Wisdom. All rights reserved.</p>
         </div>
       </div>
     </footer>
